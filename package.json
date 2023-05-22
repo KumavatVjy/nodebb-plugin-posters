@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-posters",
+  "version": "0.1.0",
+  "description": "This is the custom plugin designed for display top most 5 active users poster / avatar will be display in the topic list column.",
+  "main": "library.js",
+  "author": "Vijay Kumavat",
+  "license": "MIT",
+  "nbbpm": {
+    "compatibility": "^3.0.0 || ^2.8.0"
+  },
+  "dependencies": {
+    "nodebb-plugin-emoji-extended": "^2.2.2",
+    "nodebb-plugin-mentions": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KumavatVjy/nodebbforum-plugin/nodebb-plugin-posters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KumavatVjy/nodebbforum-plugin/nodebb-plugin-posters/issues"
+  }
+}
+

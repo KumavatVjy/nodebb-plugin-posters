@@ -1,0 +1,9 @@
+{
+    "id": "nodebb-plugin-posters",
+    "name": "Posters",
+    "description": "This is the custom plugin designed for display top most 5 active users poster / avatar will be display in the topic list column.",
+    "url": "https://github.com/KumavatVjy/nodebbforum-plugin/",
+    "hooks": [
+        { "hook": "filter:topics.get", "method": "filterTopicsGet", "priority": 10000}
+    ]
+}
