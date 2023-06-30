@@ -10,14 +10,17 @@
   },
   "dependencies": {
     "nodebb-plugin-emoji-extended": "^2.2.2",
-    "nodebb-plugin-mentions": "^2.0.0"
+    "nodebb-plugin-mentions": "^2.0.0",
+    "html-entities": "^2.3.2",
+    "lodash": "4.17.21",
+    "validator": "^13.0.0",
+    "xregexp": "^5.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KumavatVjy/nodebbforum-plugin/nodebb-plugin-posters.git"
+    "url": "https://github.com/KumavatVjy/nodebb-plugin-posters"
   },
   "bugs": {
-    "url": "https://github.com/KumavatVjy/nodebbforum-plugin/nodebb-plugin-posters/issues"
+    "url": "https://github.com/KumavatVjy/nodebb-plugin-posters/issues"
   }
 }
-
