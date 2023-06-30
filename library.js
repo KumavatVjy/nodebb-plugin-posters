@@ -42,7 +42,6 @@ const routeHelpers = require.main.require('./src/routes/helpers');
 
 const Plugin = {};
 
-
 Plugin.filterTopicsGet = async (hookData) => {
 	
 	// get the posters of the topics
@@ -69,5 +68,4 @@ Plugin.filterTopicsGet = async (hookData) => {
 	console.log(hookData);
 	return hookData;
 };
-
 module.exports = Plugin;
